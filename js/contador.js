@@ -61,7 +61,7 @@ export class Contador {
       }
       const nuevoFosforo = document.createElement("img");
       nuevoFosforo.classList.add("fosforo", "fosforo" + ((i % 5) + 1));
-      nuevoFosforo.src = "/fosforo.png";
+      nuevoFosforo.src = "./fosforo.png";
       grupoActual.appendChild(nuevoFosforo);
     }
   }
